@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+body {
+    background-color: #323031;
+    color: white;
+}
+
+header {
+    width: 100%;
+    background-color: white;
+}
+
+.topo {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 27.5%;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+    color: #ea5431;
+    font-size: 40pt;
+    background-image: url(/images/gitgithub.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    background-position-x: center;
+  }
+
+.topo h1 {
+    border-radius: 10px;
+    padding: 5px;
+    /*background-color: rgba(0, 0, 0, 0.75);*/
+}
+
