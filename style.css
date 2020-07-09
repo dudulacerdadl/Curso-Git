@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     list-style-type: none;
+    min-width: 700px;
 }
 
 body {
