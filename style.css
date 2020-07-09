@@ -21,7 +21,7 @@ header {
     text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
     color: #ea5431;
     font-size: 40pt;
-    background-image: url(gitgithub.jpg);
+    background-image: url(/images/gitgithub.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: auto;
