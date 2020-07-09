@@ -24,37 +24,37 @@
     <main>
       <div class="corpo-texto">
 
-        <h1 id="Introducao" class="titulo">1. INTRODUÇÃO</h1>
+        <h1 id="Introducao" class="titulo">INTRODUÇÃO</h1>
         <br />
         <br />
 
-        <h2 id="Objetivo" class="subtitulo">1.1 Objetivo</h2>
+        <h2 id="Objetivo" class="subtitulo">Objetivo</h2>
         <br />
         <p class="paragrafo">Esse curso de férias tem como objetivo passar o conhecimento básico e introdutório sobre as ferramentas de versionamento local e de Repositórios Online, como o intuito de ensinar aos alunos participantes, maneiras de mais práticas de realizar seus trabalhos e criar portifólios pessoais.</p>
         <br />
-        <p>Será utilizado nesse curso, o aplicativo de versionamento local Git, assim como as plataformas de repositório online GitHub, e também a IDE Visual Studio Code para exemplificar atalhos de comandos na integração entre o repositório local e remoto.</p>
+        <p class="paragrafo">Será utilizado nesse curso, o aplicativo de versionamento local <span class="italic">Git</span>, assim como as plataformas de repositório online <span class="italic">GitHub</span>, e também a IDE <span class="italic">Visual Studio Code</span> para exemplificar atalhos de comandos na integração entre o repositório local e remoto.</p>
         <br />
         <br />
 
-        <h2 class="subtitulo">1.2 Estrutura do Curso</h2>
+        <h2 class="subtitulo">Estrutura do Curso</h2>
         <br />
         <p class="paragrafo">O curso será estruturado em 1 aula, com carga horária de 1h, tendo 3 tópicos cada uma delas.</p>
         <br />
-        <p class="paragrafo">O primeiro tópico tem como objetivo apresentar conhecimentos um pouco mais teóricos, apresentando a importância e para quê utilizar as ferramentas de versionamento, como o Git e apresentado aos alunos a plataforma GitHub.</p>
+        <p class="paragrafo">O <span class="underline">primeiro tópico</span> tem como objetivo apresentar conhecimentos um pouco mais teóricos, apresentando a importância e para quê utilizar as ferramentas de versionamento, como o <span class="italic">Git</span> e apresentado aos alunos a plataforma <span class="italic">GitHub</span>.</p>
         <br />
-        <p class="paragrafo">O segundo tópico, por sua vez, tem como objetivo apresentar o Git aos alunos, instalando as ferramentas necessárias em suas máquinas e fazendo as primeiras configurações nas mesmas. Com o aplicativo instalado, será ensinado os primeiros comandos para o versionamento de um projeto, explicando se inicia o versionamento e o que é um Commit.</p>
+        <p class="paragrafo">O <span class="underline">segundo tópico</span>, por sua vez, tem como objetivo apresentar o <span class="italic">Git</span> aos alunos, instalando as ferramentas necessárias em suas máquinas e fazendo as primeiras configurações nas mesmas. Com o aplicativo instalado, será ensinado os primeiros comandos para o versionamento de um projeto, explicando se inicia o versionamento e o que é um <span class="italic">Commit</span>.</p>
         <br />
-        <p class="paragrafo">Por fim, o terceiro tópico tem como objetivo ensinar para os alunos como criar sua conta no GitHub e suas primeiras configurações, como interligar seus repositórios locais com os repositórios remotos, usando para isso os comandos Git Push e Git Pull. Após os alunos terem aprendido a usar os comandos, será ensinado a eles como utilizar o GitHub Pages para colocar seus projetos no ar. Por fim, será apresentado aos alunos alguns caminhos de estudo para que os mesmos possam conhecer mais sobre o conteúdo passado durante o curso, apresentando a proposta de realização de um curso de extensão mais completo, apresentando com mais detalhes as funcionalidades das ferramentas.</p>
+        <p class="paragrafo">Por fim, o <span class="underline">terceiro tópico</span> tem como objetivo ensinar para os alunos como criar sua conta no <span class="italic">GitHub</span> e suas primeiras configurações, como interligar seus repositórios locais com os repositórios remotos, usando para isso os comandos <span class="italic">Git Push</span> e <span class="italic">Git Pull</span>. Após os alunos terem aprendido a usar os comandos, será ensinado a eles como utilizar o <span class="italic">GitHub Pages</span> para colocar seus projetos no ar. Por fim, será apresentado aos alunos alguns caminhos de estudo para que os mesmos possam conhecer mais sobre o conteúdo passado durante o curso, apresentando a proposta de realização de um curso de extensão mais completo, apresentando com mais detalhes as funcionalidades das ferramentas.</p>
         <br/>
         <p class="paragrafo">Ao final do terceiro tópico, será passado aos alunos um questionário, para saber se os mesmos aprovam a ideia da realização de um curso de extensão.</p>
         <br />
         <br />
 
-        <h1 id="Topico1" class="titulo">2. TÓPICO 1 – CONHECENDO MAIS SOBRE O GIT E O GITHUB</h1>
+        <h1 id="Topico1" class="titulo">TÓPICO 1 – CONHECENDO MAIS SOBRE O GIT E O GITHUB</h1>
         <br />
         <br/>
 
-        <h2 id="Importancia-do-versionamento" class="subtitulo">2.1 A Importância do Versionamento</h2>
+        <h2 id="Importancia-do-versionamento" class="subtitulo">1. A Importância do Versionamento</h2>
         <br/>
         <p class="paragrafo">Hoje em dia, o versionamento de sistemas é algo muito importantes para o cotidiano dos programadores devido aos benefícios e facilidades que eles trazem as rotinas de programação.</p>
         <br />
@@ -64,227 +64,227 @@
         <br />
         <p class="paragrafo">O que você acabou de fazer aqui foi um tipo de versionamento! Porém, ficar compactando, descompactando e ficar organizando esses arquivos, quando se tem um projeto muito grande, pode ser algo muito demorado e complicado. E é para resolver esse problema que foram criados os aplicativos de versionamento.</p>
         <br />
-        <p class="paragrafo">Agora vamos imaginar mais uma situação: você está realizando mais um trabalho, mas agora é um trabalho em grupo. Você e sua equipe precisam trocar frequentemente informações sobre o trabalho, sobre o que cada um está fazendo, sobre o que cada um já fez. Vocês têm um grupo no WhatsApp para isso, aonde vocês mandam infinitos arquivos compactados do seu projeto. Agora imagine a confusão que vai ser se, na hora de juntar todos esses projetos em um só, alguém modificar a parte de um outro, o quão complicado vai ser encontrar em qual desses arquivos estava a parte que fora sobreposta?</p>
+        <p class="paragrafo">Agora vamos imaginar mais uma situação: você está realizando mais um trabalho, mas agora é um trabalho em grupo. Você e sua equipe precisam trocar frequentemente informações sobre o trabalho, sobre o que cada um está fazendo, sobre o que cada um já fez. Vocês têm um grupo no <span class="italic">WhatsApp</span> para isso, aonde vocês mandam infinitos arquivos compactados do seu projeto. Agora imagine a confusão que vai ser se, na hora de juntar todos esses projetos em um só, alguém modificar a parte de um outro, o quão complicado vai ser encontrar em qual desses arquivos estava a parte que fora sobreposta?</p>
         <br />
-        <p class="paragrafo">E é aqui que vemos a importância dos softwares de versionamento. A função de ferramentas como Git, é fazer esse trabalho de organização do ser versionamento, com você definindo por meio de comandos simples, pontos que deseja marcar e deixar salvos em seu código.</p>
+        <p class="paragrafo">E é aqui que vemos a importância dos softwares de versionamento. A função de ferramentas como <span class="italic">Git</span>, é fazer esse trabalho de organização do ser versionamento, com você definindo por meio de comandos simples, pontos que deseja marcar e deixar salvos em seu código.</p>
         <br />
-        <p class="paragrafo">O Git é um Software de Controle de Versão Distribuído, criado em 2004 por Linus Torvalds, o mesmo criador do Linux, é com ele que vamos trabalhar na próxima aula e aprender a versionar nosso primeiro projeto. Ao iniciar um projeto utilizando o Git, ele cria um repositório local em sua máquina, no qual vai armazenar um histórico com todas as versões do seu código que você criar.</p>
+        <p class="paragrafo">O <span class="italic">Git</span> é um Software de Controle de Versão Distribuído, criado em 2004 por Linus Torvalds, o mesmo criador do <span class="italic">Linux</span>, é com ele que vamos aprender a versionar nosso primeiro projeto. Ao iniciar um projeto utilizando o <span class="italic">Git</span>, ele cria um repositório local em sua máquina, no qual vai armazenar um histórico com todas as versões do seu código que você criar.</p>
         <br />
         <br />
 
-        <h2 id="Github-o-que-e-isso" class="subtitulo">2.2 GitHub: o que é isso?</h2>
+        <h2 id="Github-o-que-e-isso" class="subtitulo">2. <span class="italic">GitHub</span>: o que é isso?</h2>
         <br />
-        <p class="paragrafo">Ok, aprendemos o que é versionamento! Agora sabemos que existe uma ferramenta que pode ser usada para nos ajudar a organizar nosso versionamento de códigos. Mas ainda temos outra questão: como resolver o problema do trabalho em grupo e a desorganização de colocar tudo dentro do WhatsApp? Seria possível todos, usando o Git, conseguirem programar com o mesmo versionamento, mesmo cada um usando seu repositório local? A resposta é sim! E para isso, utilizaremos um repositório online.</p>
+        <p class="paragrafo">Ok, aprendemos o que é versionamento! Agora sabemos que existe uma ferramenta que pode ser usada para nos ajudar a organizar nosso versionamento de códigos. Mas ainda temos outra questão: como resolver o problema do trabalho em grupo e a desorganização de colocar tudo dentro do <span class="italic">WhatsApp</span>? Seria possível todos, usando o <span class="italic">Git</span>, conseguirem programar com o mesmo versionamento, mesmo cada um usando seu repositório local? A resposta é sim! E para isso, utilizaremos um repositório online.</p>
         <br />
         <p class="paragrafo">Um repositório online é uma ferramenta na qual você pode armazenar seus repositórios locais, enviando seus códigos e deixando um clone desse repositório armazenado na nuvem, permitindo que você ou qualquer pessoa que você dê autorização, possa baixar e editar o código.</p>
         <br />
         <p class="paragrafo">Com isso, você exclui a necessidade de criar cópias do deu projeto, e exclui a necessidade de procurar um local para armazenar essas cópias, pois a última versão do seu código, juntamente com todo o histórico de versionamento do mesmo, estará armazenada no seu repositório online!</p>
         <br />
-        <p class="paragrafo">Além disso, o repositório online tem uma outra função muito importe para todos os programadores: a de portifólio. Repositórios como GitHub, nada mais são do que uma espécie de rede sociais para programadores, na qual você expõe seus últimos projetos particulares, consegue ver os projetos dos amigos, trocar dicas, pedir e oferecer ajuda.</p>
+        <p class="paragrafo">Além disso, o repositório online tem uma outra função muito importe para todos os programadores: a de portifólio. Repositórios como <span class="italic">GitHub</span>, nada mais são do que uma espécie de rede sociais para programadores, na qual você expõe seus últimos projetos particulares, consegue ver os projetos dos amigos, trocar dicas, pedir e oferecer ajuda.</p>
         <br />
         <p class="paragrafo">Se você for meio chato, pode achar isso um tanto quanto bobo, mas saiba que essa característica desses repositórios torna eles muito importantes, pois esse é o meio mais fácil que uma empresa tem de checar toda a sua bagagem de experiência, com eles sendo muito usados na hora da decisão de contrato.</p>
         <br />
-        <p class="paragrafo">Gostou dessas ferramentas? Bem, mesmo se a resposta for não, vamos conhecer elas um pouco melhor logo, logo, e dar nossos primeiros passos práticos do curso, criando nossas contas no GitHub!</p>
+        <p class="paragrafo">Gostou dessas ferramentas? Bem, mesmo se a resposta for não, vamos conhecer elas um pouco melhor logo, logo, e dar nossos primeiros passos práticos do curso, criando nossas contas no <span class="italic">GitHub</span>!</p>
         <br />
         <br />
  
-        <h1 id="Topico2" class="titulo">3. TÓPICO 2 – VERSIONANDO REPOSITÓRIOS</h1>
+        <h1 id="Topico2" class="titulo">TÓPICO 2 – VERSIONANDO REPOSITÓRIOS</h1>
         <br />
         <br />
 
-        <h2 id="Instalando-git" class="subtitulo">3.1	Instalando e Configurando o Git</h2>
+        <h2 id="Instalando-git" class="subtitulo">1.	Instalando e Configurando o <span class="italic">Git</span></h2>
         <br />
         <p class="paragrafo">Agora que conhecemos um pouco mais sobre o versionamento, vamos instalar nas suas máquinas a ferramenta necessária para começarmos a versionar nosso primeiro código.</p>
         <br />
         <p class="paragrafo">Vamos iniciar então:</p>
         <br />
         <ul id="tutorial-instalando-git" class="lista-tutorial">
-          <li class="item-lista">1.	Entre no site: https://git-scm.com/downloads;</li>
+          <li class="item-lista">1.	Entre no site: <a href="https://git-scm.com/downloads" target="_blank" rel="noopener noreferrer">https://git-scm.com/downloads</a>;</li>
           <br />
-          <li class="item-lista">2.	Dentro do site, localize o botão escrito o nome do seu sistema operacional e selecione o mesmo. Esse curso será ministrado utilizando uma máquina com Windows, então talvez os próximos passos seja, um pouco diferentes, caso esteja utilizando outro sistema, mas o processo é muito semelhante;</li>
+          <li class="item-lista">2.	Dentro do site, localize o botão escrito o nome do seu sistema operacional e selecione o mesmo. Esse curso será ministrado utilizando uma máquina com <span class="italic">Windows</span>, então talvez os próximos passos seja, um pouco diferentes, caso esteja utilizando outro sistema, mas o processo é muito semelhante;</li>
           <br />
           <li class="item-lista">3.	Após clicar no botão, será iniciado um download automático. Localize a pasta para aonde o instalador foi baixado e execute como administrador o arquivo executável;</li>
           <br />
-          <li class="item-lista">4.	Feito isso, ao arquivo executar, leia e concorde com os termos do programa apertando em Next >.</li>
+          <li class="item-lista">4.	Feito isso, ao arquivo executar, leia e concorde com os termos do programa apertando em <span class="green">Next ></span>.</li>
           <br />
-          <li class="item-lista">5.	Na próxima tela, escolha o local que deseja instalar o programa e aperte novamente no Next >.</li>
+          <li class="item-lista">5.	Na próxima tela, escolha o local que deseja instalar o programa e aperte novamente no <span class="green">Next ></span>.</li>
           <br />
-          <li class="item-lista">6.	Agora, na tela em que você está, você irá selecionar todas as opções, exceto a penúltima, que está escrito: “Use a TrueType font in all console Windows”. Em seguida, aperte em Next >.</li>
+          <li class="item-lista">6.	Agora, na tela em que você está, você irá selecionar todas as opções, exceto a penúltima, que está escrito: <span class="italic">“Use a TrueType font in all console Windows”</span>. Em seguida, aperte em <span class="green">Next ></span>.</li>
           <br />
-          <li class="item-lista">7.	Na próxima tela, deixe como está e só aperte novamente em Next >.</li>
+          <li class="item-lista">7.	Na próxima tela, deixe como está e só aperte novamente em <span class="green">Next ></span>.</li>
           <br />
-          <li class="item-lista">8.	Nessa tela, pressione na barra de seleção e escolha a opção do seu editor de códigos de preferência como padrão. Para esse curso, como dito antes, vamos utilizar o Visual Studio Code como padrão, então iremos selecionar a opção “Use Visual Studio Code as Git’s default editor”. Lembrando que você já deve ter o Visual Studio Code instalado no seu computador para isso. Em seguida pressione o Next >.</li>
+          <li class="item-lista">8.	Nessa tela, pressione na barra de seleção e escolha a opção do seu editor de códigos de preferência como padrão. Para esse curso, como dito antes, vamos utilizar o <span class="italic">Visual Studio Code</span> como padrão, então iremos selecionar a opção <span class="italic">“Use Visual Studio Code as Git’s default editor”</span>. Lembrando que você já deve ter o <span class="italic">Visual Studio Code</span> instalado no seu computador para isso. Em seguida pressione o <span class="green">Next ></span>.</li>
           <br />
-          <li class="item-lista">9. Agora, deixe na opção já pré-selecionada e pressione em Next >.</li>
+          <li class="item-lista">9. Agora, deixe na opção já pré-selecionada e pressione em <span class="green">Next ></span>.</li>
           <br />
-          <li class="item-lista">10. Faça o mesmo nessa tela, apenas deixe a opção pré-selecionada e aperte em Next >.</li>
+          <li class="item-lista">10. Faça o mesmo nessa tela, apenas deixe a opção pré-selecionada e aperte em <span class="green">Next ></span>.</li>
           <br />
-          <li class="item-lista">11. Continuaremos na mesma, apenas deixe a opção pré-selecionada e aperte em Next >.</li>
+          <li class="item-lista">11. Continuaremos na mesma, apenas deixe a opção pré-selecionada e aperte em <span class="green">Next ></span>.</li>
           <br />
-          <li class="item-lista">12. Mais uma vez, apenas deixe a opção pré-selecionada e aperte em Next >.</li>
+          <li class="item-lista">12. Mais uma vez, apenas deixe a opção pré-selecionada e aperte em <span class="green">Next ></span>.</li>
           <br />
-          <li class="item-lista">13. Mais uma vez, apenas deixe a opção pré-selecionada e aperte em Next >.</li>
+          <li class="item-lista">13. Mais uma vez, apenas deixe a opção pré-selecionada e aperte em <span class="green">Next ></span>.</li>
           <br />
-          <li class="item-lista">14. Novamente, apenas deixe a opção pré-selecionada e aperte em Next >.</li>
+          <li class="item-lista">14. Novamente, apenas deixe a opção pré-selecionada e aperte em <span class="green">Next ></span>.</li>
           <br />
-          <li class="item-lista">15. Por fim, deixe selecionada a opção “Enable experimental support for pseudo console”, e pressione em Install >.</li>
+          <li class="item-lista">15. Por fim, deixe selecionada a opção <span class="italic">“Enable experimental support for pseudo console”</span>, e pressione em <span class="green">Install ></span>.</li>
           <br/>
-          <li class="item-lista">16. Feito isso, o aplicativo será instalado, e por fim, você deve selecionar apenas a opção “Launch Git Bash” e pressionar Next >.</li>
+          <li class="item-lista">16. Feito isso, o aplicativo será instalado, e por fim, você deve selecionar apenas a opção <span class="italic">“Launch Git Bash”</span> e pressionar <span class="green">Next ></span>.</li>
           <br />  
         </ul>
-        <p class="paragrafo">Com isso, ele terá instalado o Git e estará rodando o Git Bash, um terminar específico do Git. Lembre-se de seguir todos os passos com atenção, e não pule nenhum deles.</p>
+        <p class="paragrafo">Com isso, ele terá instalado o <span class="italic">Git</span> e estará rodando o <span class="italic">Git Bash</span>, um terminar específico do <span class="italic">Git</span>. Lembre-se de seguir todos os passos com atenção, e não pule nenhum deles.</p>
         <br />
-        <p class="paragrafo">Agora, vamos rapidamente configurar seu Git como seu, cadastrando um usuário e e-mail no mesmo:</p>
+        <p class="paragrafo">Agora, vamos rapidamente configurar seu <span class="italic">Git</span> como seu, cadastrando um usuário e e-mail no mesmo:</p>
         <br />
         <ul id="tutorial-config-git" class="lista-tutorial">
-          <li class="item-lista">1.	Dentro da tela do Git Bash, digite o comando: git config --global user.name, seguido pelo seu nome de usuário desejado</li>
+          <li class="item-lista">1.	Dentro da tela do <span class="italic">Git Bash</span>, digite o comando: <span class="code">git config --global user.name</span>, seguido pelo seu nome de usuário desejado</li>
           <br />
-          <li class="item-lista">2.	Ainda dentro do Git Bash, digite o comando: git config --global user.email, seguido pelo seu e-mail.</li>
+          <li class="item-lista">2.	Ainda dentro do <span class="italic">Git Bash</span>, digite o comando: <span class="code">git config --global user.email</span>, seguido pelo seu e-mail.</li>
           <br />
-          <li class="item-lista">3.	Feito isso, use o comando: git config –list, e confira se as informações que você cadastrou estão apresentadas corretamente.</li>
+          <li class="item-lista">3.	Feito isso, use o comando: <span class="code">git config –list</span>, e confira se as informações que você cadastrou estão apresentadas corretamente.</li>
           <br />
         </ul>
-        <h2 id="Vercionando-primerio-codigo" class="subtitulo">3.2	Versionando meu Primeiro Projeto</h2>
+        <h2 id="Vercionando-primerio-codigo" class="subtitulo">2.	Versionando meu Primeiro Projeto</h2>
         <br />
         <p class="paragrafo">Pode parecer um pouco estranho no começo, ficar mexendo com essa tela preta, mas não se preocupe, essa tela não é nenhum bicho de sete cabeças, e você vai conseguir pegar o jeito com ela!</p>
         <br />
         <p class="paragrafo">E para te ajudar, vamos aprender agora alguns comandos úteis, e iniciar o versionamento do nosso código:</p>
         <br />
         <ul id="tutorial-git-commit" class="lista-tutorial">
-          <li class="item-lista">1.	Dentro daquela mesma tela do Git Bash que deixamos aberta, digite o comando: mkdir Curso-Git.</li>
+          <li class="item-lista">1.	Dentro daquela mesma tela do <span class="italic">Git Bash</span> que deixamos aberta, digite o comando: <span class="code">mkdir Curso-Git</span>.</li>
           <br />
-          <p class="paragrafo">O comando que acabamos de utilizar não é um comando exclusivo do Git, ele é um comando nativo do CMD, o terminal padrão do Windows, usado para criar um novo diretório. O Git Bash também é um terminal, e ele sem suporte a maioria dos comandos que você utilizaria normalmente no Windows, assim como, agora que temos o Git instalado em nossos computadores, podemos usar todos os comandos do Git no CMD. Iremos utilizar o Git Bash por praticidade e alguns recursos que vão facilitar a visualização do que estamos fazendo mais para frente.</p>
+          <p class="paragrafo">O comando que acabamos de utilizar não é um comando exclusivo do <span class="italic">Git</span>, ele é um comando nativo do <span class="italic">CMD</span>, o terminal padrão do <span class="italic">Windows</span>, usado para criar um novo diretório. O <span class="italic">Git Bash</span> também é um terminal, e ele sem suporte a maioria dos comandos que você utilizaria normalmente no <span class="italic">Windows</span>, assim como, agora que temos o <span class="italic">Git</span> instalado em nossos computadores, podemos usar todos os comandos do <span class="italic">Git</span> no <span class="italic">CMD</span>. Iremos utilizar o <span class="italic">Git Bash</span> por praticidade e alguns recursos que vão facilitar a visualização do que estamos fazendo mais para frente.</p>
           <br />
-          <li class="item-lista">2.	Com o novo diretório criado, vamos entrar dentro dele usando o comando: cd Curso-Git.</li>
+          <li class="item-lista">2.	Com o novo diretório criado, vamos entrar dentro dele usando o comando: <span class="code">cd Curso-Git</span>.</li>
           <br />
-          <li class="item-lista">3.	Estamos agora dentro do diretório que usaremos para construir nosso primeiro código versionado. Já que sabemos que essa será nosso diretório principal, então vamos usar nosso primeiro comando Git: git init. Com isso, você iniciou o versionamento desse diretório!</li>
+          <li class="item-lista">3.	Estamos agora dentro do diretório que usaremos para construir nosso primeiro código versionado. Já que sabemos que essa será nosso diretório principal, então vamos usar nosso primeiro comando <span class="italic">Git</span>: <span class="code">git init</span>. Com isso, você iniciou o versionamento desse diretório!</li>
           <br />
-          <p class="paragrafo">Viu como foi fácil? Com esse simples comando você já iniciou o versionamento do seu diretório! Você pode reparar agora, caso tenha seguido os passos direitinho que, ao lado do caminho da pasta em que você está, apareceu escrito em azul (master), isso significa que você está dentro de um diretório versionado.</p>
+          <p class="paragrafo">Viu como foi fácil? Com esse simples comando você já iniciou o versionamento do seu diretório! Você pode reparar agora, caso tenha seguido os passos direitinho que, ao lado do caminho da pasta em que você está, apareceu escrito em azul <span class="blue">(master)</span>, isso significa que você está dentro de um diretório versionado.</p>
           <br />
-          <p class="paragrafo">Mas bem, por hora, estamos versionando apenas uma pasta vazia, e não é isso que queremos. Então agora, vamos criar nosso famoso código inicial de testes: o Hello World!</p>
+          <p class="paragrafo">Mas bem, por hora, estamos versionando apenas uma pasta vazia, e não é isso que queremos. Então agora, vamos criar nosso famoso código inicial de testes: o <span class="italic">Hello World</span>!</p>
           <br />
-          <li class="item-lista">4.	Agora, já que estamos dentro do diretório que utilizaremos construir nosso código versionado, nada mais justo que entrarmos no nosso editor de códigos. Para isso, digite o comando: code ., e o Visual Studio Code será aberto executando a pasta Curso-Git, que era a que estávamos.</li>
+          <li class="item-lista">4.	Agora, já que estamos dentro do diretório que utilizaremos construir nosso código versionado, nada mais justo que entrarmos no nosso editor de códigos. Para isso, digite o comando: <span class="code">code .</span>, e o <span class="italic">Visual Studio Code</span> será aberto executando a pasta Curso-Git, que era a que estávamos.</li>
           <br />
-          <li class="item-lista">5.	No Visual Studio Code agora, vamos criar um arquivo simples de HTML. Para isso, vá na opção File e selecione New File. Feito isso, pressione Ctrl + S e salve esse arquivo com o nome “index”, e selecione o formato HTML.</li>
+          <li class="item-lista">5.	No <span class="italic">Visual Studio Code</span> agora, vamos criar um arquivo simples de HTML. Para isso, vá na opção File e selecione New File. Feito isso, pressione Ctrl + S e salve esse arquivo com o nome <span class="italic">“index”</span>, e selecione o formato HTML.</li>
           <br />
-          <p class="paragrafo">Agora, temos um arquivo HTML para brincarmos com ele. Vamos então construir o nosso Hello World, usando alguns alhos do Visual Studio Code para agilizar nosso processo.</p>
+          <p class="paragrafo">Agora, temos um arquivo HTML para brincarmos com ele. Vamos então construir o nosso <span class="italic">Hello World</span>, usando alguns alhos do <span class="italic">Visual Studio Code</span> para agilizar nosso processo.</p>
           <br />
-          <li class="item-lista">6.	Dentro do arquivo que criamos e salvamos com o nome de “index” em formato HTML, digite apenas: ! , pressione Enter e veja a mágica acontecer. Toda a estrutura básica de um arquivo HTML se formou, com você digitando apenas um caractere!</li>
+          <li class="item-lista">6.	Dentro do arquivo que criamos e salvamos com o nome de <span class="italic">“index”</span> em formato HTML, digite apenas: <span class="code">!</span> , pressione Enter e veja a mágica acontecer. Toda a estrutura básica de um arquivo HTML se formou, com você digitando apenas um caractere!</li>
           <br />
-          <li class="item-lista">7.	Feito, dentro do Body, crie um &lth1> &lt/h1>, e dentro dele digite: “Hello world!”, e depois disso, localize o arquivo em seu explorador de arquivos e execute ele, para ver se o mesmo está funcionando normalmente.</li>
+          <li class="item-lista">7.	Feito, dentro do <span class="italic">Body</span>, crie um <span class="code">&lth1> &lt/h1></span>, e dentro dele digite: <span class="italic">“Hello world!”</span>, e depois disso, localize o arquivo em seu explorador de arquivos e execute ele, para ver se o mesmo está funcionando normalmente.</li>
           <br />
-          <p class="paragrafo">Criamos enfim nosso Hello World, mas ele por enquanto é só um código comum, que nós apenas iniciamos o versionamento, como podemos salvar nosso progresso em uma nova versão do projeto, agora com esse arquivo? É o que veremos agora:</p>
+          <p class="paragrafo">Criamos enfim nosso <span class="italic">Hello World</span>, mas ele por enquanto é só um código comum, que nós apenas iniciamos o versionamento, como podemos salvar nosso progresso em uma nova versão do projeto, agora com esse arquivo? É o que veremos agora:</p>
           <br />
-          <li class="item-lista">8.	Volte ao nosso amigo Git Bash, e execute o comando: dir , com isso, você verá que o arquivo está dentro do nosso diretório. Tendo certificado isso, podemos criar nossa primeira versão do código, usando o comando: git add -A , para adicionar nosso novo arquivo ao versionamento do Git, e em seguida: git commit -m “Versão 1”, para criarmos a primeira versão do nosso novo código!</li>
+          <li class="item-lista">8.	Volte ao nosso amigo <span class="italic">Git Bash</span>, e execute o comando: <span class="code">dir</span>, com isso, você verá que o arquivo está dentro do nosso diretório. Tendo certificado isso, podemos criar nossa primeira versão do código, usando o comando: <span class="code">git add -A</span>, para adicionar nosso novo arquivo ao versionamento do <span class="italic">Git</span>, e em seguida: <span class="code">git commit -m “Versão 1”</span>, para criarmos a primeira versão do nosso novo código!</li>
           <br />
-          <li class="item-lista">9.	E com isso, temos a primeira versão do nosso código! Como ter certeza que deu certo? É fácil, execute o comando: git log, depois disso, aparecerá um breve resumo das últimas versões do código, dizendo por quem ela foi feita e o nome da mesma.</li>
+          <li class="item-lista">9.	E com isso, temos a primeira versão do nosso código! Como ter certeza que deu certo? É fácil, execute o comando: <span class="code">git log</span>, depois disso, aparecerá um breve resumo das últimas versões do código, dizendo por quem ela foi feita e o nome da mesma.</li>
           <br />
         </ul>
         <p class="paragrafo">Viu só? Não é nenhum bicho de 7 cabeças, é tudo questão de prática, você logo, logo estará fazendo esse processo bem mais rápido que esse tutorial, e vendo como isso é importante para um projeto.</p>
         <br />
         <br />
 
-        <h1 id="Topico3" class="titulo">4.	TÓPICO 3 – UPANDO, BAIXANDO E COLOCANDO REPOSITÓRIOS NO AR</h1>
+        <h1 id="Topico3" class="titulo">TÓPICO 3 – UPANDO, BAIXANDO E COLOCANDO REPOSITÓRIOS NO AR</h1>
         <br />
         <br />
 
-        <h2 id="Github-conhecendo" class="subtitulo">4.1	GitHub: conhecendo e aprendendo um pouco mais</h2>
+        <h2 id="Github-conhecendo" class="subtitulo">1.	<span class="italic">GitHub</span>: conhecendo e aprendendo um pouco mais</h2>
         <br />
-        <p class="paragrafo">Uma das funções desse curso, é tirar o estereótipo que muitas pessoas tem de que Git e GitHub são a mesma coisa.</p>
+        <p class="paragrafo">Uma das funções desse curso, é tirar o estereótipo que muitas pessoas tem de que <span class="italic">Git</span> e <span class="italic">GitHub</span> são a mesma coisa.</p>
         <br />
-        <p class="paragrafo">Bem, definitivamente não é assim que funciona. Para você ter uma ideia, o Git, como dito antes, foi criado por Linus Torvalds, o mesmo criador do Linux, enquanto o GitHub pertence hoje a Microsoft, depois de uma compra bilionária realizada pela mesma em 2018. Por serem ambas ferramentas muito utilizadas pela comunidade, quase sempre em parcimônia, muitas pessoas não enxergam a diferença, e não entendem quando falamos de ambas separadas.</p>
+        <p class="paragrafo">Bem, definitivamente não é assim que funciona. Para você ter uma ideia, o <span class="italic">Git</span>, como dito antes, foi criado por Linus Torvalds, o mesmo criador do <span class="italic">Linux</span>, enquanto o <span class="italic">GitHub</span> pertence hoje a Microsoft, depois de uma compra bilionária realizada pela mesma em 2018. Por serem ambas ferramentas muito utilizadas pela comunidade, quase sempre em parcimônia, muitas pessoas não enxergam a diferença, e não entendem quando falamos de ambas separadas.</p>
         <br />
-        <p class="paragrafo">Tendo isso em mente, e sabendo que Git e GitHub NÃO SÃO a mesma coisa, nem tem o mesmo dono, nem foram feitas pela mesma pessoa, apenas tem um ótimo funcionamento conjunto, hora de criar nossa conta nesse Facebook de Developers!</p>
+        <p class="paragrafo">Tendo isso em mente, e sabendo que <span class="italic">Git</span> e <span class="italic">GitHub</span> <span class="bold">NÃO SÃO</span> a mesma coisa, nem tem o mesmo dono, nem foram feitas pela mesma pessoa, apenas tem um ótimo funcionamento conjunto, hora de criar nossa conta nesse Facebook de Developers!</p>
         <br />
         <p class="paragrafo">Vamos iniciar então:</p>
         <br />
         <ul id="tutorial-github-cadastro" class="lista-tutorial">
-          <li class="item-lista">1.	Entre no site: https://github.com/;</li>
+          <li class="item-lista">1.	Entre no site: <a href="https://github.com/" target="_blank" rel="noopener noreferrer">https://github.com/</a>;</li>
           <br />
-          <li class="item-lista">2.	Dentro do site, localize o botão escrito “Sign Up”;</li>
+          <li class="item-lista">2.	Dentro do site, localize o botão escrito <span class="italic">“Sign Up”</span>;</li>
           <br />
-          <li class="item-lista">3.	Dentro da página de cadastro, digite um nome de usuário válido no campo “Username”; um e-mail válido no campo “Email address”; e uma senha válida no campo “Password”, que tenha pelo menos 15 caracteres OU pelo menos 8 caracteres, incluindo um número e uma letra minúscula. Por fim, realize o teste lógico, girando a imagem até que a mesma fique na posição correta;</li>
+          <li class="item-lista">3.	Dentro da página de cadastro, digite um nome de usuário válido no campo <span class="italic">“Username”</span>; um e-mail válido no campo <span class="italic">“Email address”</span>; e uma senha válida no campo <span class="italic">“Password”</span>, que tenha pelo menos 15 caracteres OU pelo menos 8 caracteres, incluindo um número e uma letra minúscula. Por fim, realize o teste lógico, girando a imagem até que a mesma fique na posição correta;</li>
           <br />
           <li class="item-lista">4.	Feito isso, será enviado um link de verificação para o e-mail que você colocou no cadastro. Entre nele, confirme e pronto! Conta criada.</li>
           <br />
         </ul>
-        <p class="paragrafo">Simples, não? Agora vamos entrar um pouco mais dentro do GitHub e criar nosso primeiro repositório online:</p>
+        <p class="paragrafo">Simples, não? Agora vamos entrar um pouco mais dentro do <span class="italic">GitHub</span> e criar nosso primeiro repositório online:</p>
         <br />
         <ul id="tutorial-github-repositorio" class="lista-tutorial">
-          <li class="item-lista">1.	Entre no site: https://github.com/, como feito anteriormente, e realize seu login, apertando na apertando no botão “Sing In”, e colocando o e-mail e a senha que acabamos de cadastrar;</li>
+          <li class="item-lista">1.	Entre no site: <a href="https://github.com/" target="_blank" rel="noopener noreferrer">https://github.com/</a>, como feito anteriormente, e realize seu login, apertando na apertando no botão <span class="italic">“Sing In”</span>, e colocando o e-mail e a senha que acabamos de cadastrar;</li>
           <br />
           <li class="item-lista">2.	Logado no site, clique na imagem com uma setinha para baixo, que fica no topo do lado esquerdo, e ela abrirá um menu. Dentro dele, clique em cima do seu nome de usuário, para acessar seu perfil;</li>
           <br />
           <p class="paragrafo">Estamos agora dentro do seu perfil de usuário, que ainda é meio vazio, mas com o tempo você vai se acostumando e preenchendo ele. E vamos começar a fazer isso agora:</p>
           <br />
-          <li class="item-lista">3.	Dentro da sua conta, vá agora no símbolo de +, ao lado da imagem que você clicou anteriormente, que abrirá outro menu. Neste, clique em “New repository";</li>
+          <li class="item-lista">3.	Dentro da sua conta, vá agora no símbolo de +, ao lado da imagem que você clicou anteriormente, que abrirá outro menu. Neste, clique em <span class="italic">“New repository"</span>;</li>
           <br />
           <p class="paragrafo">Ele te encaminhará para a página de criação do repositório, na qual temos que fazer algumas configurações iniciais para prepararmos o mesmo:</p>
           <br />
-          <li class="item-lista">4.	Feito isso, agora na página de criação, escreva o “Curso-Git” no “Repository name”, logo à frente do seu nome de usuário.</li>
+          <li class="item-lista">4.	Feito isso, agora na página de criação, escreva o <span class="italic">“Curso-Git”</span> no <span class="italic">“Repository name”</span>, logo à frente do seu nome de usuário.</li>
           <br />
-          <li class="item-lista">5.	Logo abaixo, no espaço “Description”, vamos digitar: “Repositório de teste criado durante a realização do curso de Git e GitHub”.</li>
+          <li class="item-lista">5.	Logo abaixo, no espaço <span class="italic">“Description”</span>, vamos digitar: <span class="italic">“Repositório de teste criado durante a realização do curso de Git e GitHub”</span>.</li>
           <br />
-          <li class="item-lista">6.	Feito isso, deixe os campos de seleção do jeito que estão, com o repositório como PUBLIC, e sem criar arquivo de licença nem ReadMe, nem gitignore, e aperte em: “Create repository”.</li>
+          <li class="item-lista">6.	Feito isso, deixe os campos de seleção do jeito que estão, com o repositório como <span class="bold">PUBLIC</span>, e sem criar arquivo de licença nem <span class="italic">ReadMe</span>, nem <span class="italic">gitignore</span>, e aperte em: <span class="italic">“Create repository”</span>.</li>
           <br />
         </ul>
         <p class="paragrafo">Criamos nosso primeiro repositório público! Se você colocar o repositório como privado, não conseguiremos usar alguns recursos mais para frente.</p>
         <br />
-        <p class="paragrafo">Pois bem, agora temos nossa conta no GitHub e nosso primeiro repositório na mesma, hora de conectarmos ela ao nosso projeto do Hello World. Para isso, vamos aprender a lidar com alguns novos comandos do Git:</p>
+        <p class="paragrafo">Pois bem, agora temos nossa conta no <span class="italic">GitHub</span> e nosso primeiro repositório na mesma, hora de conectarmos ela ao nosso projeto do <span class="italic">Hello World</span>. Para isso, vamos aprender a lidar com alguns novos comandos do <span class="italic">Git</span>:</p>
         <br />
         <ul id="tutorial-git-push" class="lista-tutorial">
-          <li class="item-lista">1.	Primeiramente, abrir nosso Git Bash e ir até o nosso diretório veriosnado que criamos. Se você não lembra como fazer isso, é só dar uma olhadinha no tópico anterior;</li>
+          <li class="item-lista">1.	Primeiramente, abrir nosso <span class="italic">Git Bash</span> e ir até o nosso diretório veriosnado que criamos. Se você não lembra como fazer isso, é só dar uma olhadinha no tópico anterior;</li>
           <br />
           <li class="item-lista">2.	Simultaneamente, abra aquele repositório remoto que criamos;</li>
           <br />
           <p class="paragrafo">Ao abrir o repositório, você vai perceber que ele está vazio, e com algumas dicas de comandos que você pode usar para importar seu projeto para ele, e é isso que faremos:</p>
           <br />
-          <li class="item-lista">3.	Dentro do repositório, na parte indicada com: Quick setup, selecione a opção HTTPS e copie o código que aparecer na frente da mesma, que será algo como: https://github.com/seu-nome-de-usuário/Curso-Git.git;</li>
+          <li class="item-lista">3.	Dentro do repositório, na parte indicada com: <span class="italic">Quick setup</span>, selecione a opção HTTPS e copie o código que aparecer na frente da mesma, que será algo como: <span class="fake">https://github.com/seu-nome-de-usuário/Curso-Git.git</span>;</li>
           <br />
-          <li class="item-lista">4.	Agora, vamos voltar ao nosso Git Bash. Nele, coloque o link que você copiou do GitHub e aperte Enter.</li>
+          <li class="item-lista">4.	Agora, vamos voltar ao nosso <span class="italic">Git Bash</span>. Nele, coloque o link que você copiou do <span class="italic">GitHub</span> e aperte Enter.</li>
           <br />
-          <p class="paragrafo">Com isso, você acabou de conectar o seu Git com o seu GitHub! Porém, isso não significa que suas de um já estão no outro, para isso, precisamos de mais um comando:</p>
+          <p class="paragrafo">Com isso, você acabou de conectar o seu <span class="italic">Git</span> com o seu <span class="italic">GitHub</span>! Porém, isso não significa que suas de um já estão no outro, para isso, precisamos de mais um comando:</p>
           <br />
-          <li class="item-lista">5.	Dentro do Git Bash, execute o comando: git push -u origin master.</li>
+          <li class="item-lista">5.	Dentro do <span class="italic">Git Bash</span>, execute o comando: <span class="code">git push -u origin master</span>.</li>
           <br />
-          <li class="item-lista">6.	Depois de terminada a execução desse comando, entre no seu GitHub e confira se eu arquivo foi upado corretamente.</li>
+          <li class="item-lista">6.	Depois de terminada a execução desse comando, entre no seu <span class="italic">GitHub</span> e confira se eu arquivo foi upado corretamente.</li>
           <br />
         </ul>
         <p class="paragrafo">Viu como foi simples? Agora você tem um código versionado, em um repositório online! Mas não temos somente a função de upar um código, também podemos baixa-lo. Vamos fazer o seguinte:</p>
         <br />
         <ul id="tutorial-git-pull" class="lista-tutorial">
-          <li class="item-lista">1.	Para isso, vamos entrar dentro do nosso código pelo GitHub, apertar no ícone de caneta para abrir a tela de edição, e trocar a frase “Hello World” por “Olá, mundo!”, e depois, apertar em “Commit changes”.</li>
+          <li class="item-lista">1.	Para isso, vamos entrar dentro do nosso código pelo <span class="italic">GitHub</span>, apertar no ícone de caneta para abrir a tela de edição, e trocar a frase <span class="italic">“Hello World”</span> por <span class="italic">“Olá, mundo!”</span>, e depois, apertar em <span class="italic">“Commit changes”</span>.</li>
           <br />
-          <li class="item-lista">2.	Feito isso, volto ao Git Bash, dentro do diretório do nosso projeto. Dentro dela, execute o comando: git pull.</li>
+          <li class="item-lista">2.	Feito isso, volto ao <span class="italic">Git Bash</span>, dentro do diretório do nosso projeto. Dentro dela, execute o comando: <span class="code">git pull</span>.</li>
           <br />
-          <li class="item-lista">3.	Simples, não? Para conferir se deu tudo certo, execute o comando: code ., para abrir o projeto no Visual Studio Code. Nele, caso tenha feito tudo certo, você verá que no lugar do “Hello World”, estará o “Olá, mundo!”.</li>
+          <li class="item-lista">3.	Simples, não? Para conferir se deu tudo certo, execute o comando: <span class="code">code .</span>, para abrir o projeto no <span class="italic">Visual Studio Code</span>. Nele, caso tenha feito tudo certo, você verá que no lugar do <span class="italic">“Hello World”</span>, estará o <span class="italic">“Olá, mundo!”</span>.</li>
           <br />
         </ul>
-        <h2 id="Colocando-codigo-no-ar" class="subtitulo">4.2	Colocando seu Projeto no Ar com GitHub Pages</h2>
+        <h2 id="Colocando-codigo-no-ar" class="subtitulo">2.	Colocando seu Projeto no Ar com <span class="italic">GitHub Pages</span></h2>
         <br />
-        <p class="paragrafo">Agora temos nosso repositório, e nosso projeto já está lançado dentro dele, como podemos melhorar isso? E se eu te dissesse que você consegue hospedar o seu projeto gratuitamente dentro do GitHub, podendo acessá-lo de qualquer lugar? Pois é, esse é o GitHub Pages!</p>
+        <p class="paragrafo">Agora temos nosso repositório, e nosso projeto já está lançado dentro dele, como podemos melhorar isso? E se eu te dissesse que você consegue hospedar o seu projeto gratuitamente dentro do <span class="italic">GitHub</span>, podendo acessá-lo de qualquer lugar? Pois é, esse é o <span class="italic">GitHub Pages!</span></p>
         <br />
-        <p class="paragrafo">O GitHub Pages é uma ferramenta própria do GitHub que te permite colocar sites estáticos, que não requerem acesso a bancos de dados, diretamente no ar.</p>
+        <p class="paragrafo">O <span class="italic">GitHub Pages</span> é uma ferramenta própria do <span class="italic">GitHub</span> que te permite colocar sites estáticos, que não requerem acesso a bancos de dados, diretamente no ar.</p>
         <br />
-        <p class="paragrafo">Para demonstrar isso, vamos colocar nosso Hello World no ar:</p>
+        <p class="paragrafo">Para demonstrar isso, vamos colocar nosso <span class="italic">Hello World</span> no ar:</p>
         <br />
         <ul id="tutorial-github-pages" class="lista-tutorial">
-          <li class="item-lista">1.	Entre no seu repositório do GitHub que criamos nos passos anteriores;</li>
+          <li class="item-lista">1.	Entre no seu repositório do <span class="italic">GitHub</span> que criamos nos passos anteriores;</li>
           <br />
-          <li class="item-lista">2.	Dentro do repositório, clique no botão de “Settings” para acessar as configurações do repositório;</li>
+          <li class="item-lista">2.	Dentro do repositório, clique no botão de <span class="italic">“Settings”</span> para acessar as configurações do repositório;</li>
           <br />
-          <li class="item-lista">3.	Dentro das configurações, role a página até chegar no tópico de título: “GitHub Pages”;</li>
+          <li class="item-lista">3.	Dentro das configurações, role a página até chegar no tópico de título: <span class="italic">“GitHub Pages”</span>;</li>
           <br />
-          <li class="item-lista">4.	Nele, altere a opção Source de “none” para “master branch”.</li>
+          <li class="item-lista">4.	Nele, altere a opção <span class="italic">Source</span> de <span class="italic">“none”</span> para <span class="italic">“master branch”</span>.</li>
           <br />
-          <li class="item-lista">5.	Feito isso, página atualizará. Role novamente até o tópico de título: “GitHub Pages”.</li>
+          <li class="item-lista">5.	Feito isso, página atualizará. Role novamente até o tópico de título: <span class="italic">“GitHub Pages”</span>.</li>
           <br />
-          <li class="item-lista">6.	Logo abaixo dele, agora, terá uma mensagem escrita algo como: “Your site is ready to be published at https://seu-nome-de-usuário.github.io/Curso-Git/”. Feito isso, clique no link apresentado.</li>
+          <li class="item-lista">6.	Logo abaixo dele, agora, terá uma mensagem escrita algo como: <span class="italic">“Your site is ready to be published at <span class="fake">https://seu-nome-de-usuário.github.io/Curso-Git/</span>”</span>. Feito isso, clique no link apresentado.</li>
           <br />
         </ul>
         <p class="paragrafo">Pronto! Seu site agora está no ar, e você pode acessá-lo de qualquer equipamento!</p>
         <br />
-        <h2 id="Isso-e-tudo" class="subtitulo">4.3	Isso é tudo?</h2>
+        <h2 id="Isso-e-tudo" class="subtitulo">3.	Isso é tudo?</h2>
         <br />
         <p class="paragrafo">Assim como qualquer outro curso introdutório, tudo que foi passado aqui foi apenas uma introdução a um conteúdo muito mais abrangente, com muitos outros detalhes se muitas outras funcionalidades a se aprender. O objetivo desse curso foi apenas passar a noção inicial sobre o que são as ferramentas, e o necessário que precisa ser usado para que você consiga implementas essas ferramentas no seu cotidiano de programador iniciante. Não seria possível explicar todas as funcionalidades e nem todas as funções e possibilidades do que as ferramentas são capazes de fazer.</p>
         <br />
@@ -313,19 +313,19 @@
         <br />
 
         <div class="referencias">
-          <p class="paragrafo">A EVOLUÇÃO do Git e GitHub - Curso de Git e GitHub – YouTube. Disponível em: &lthttps://youtu.be/CJtrNuTTs4Q>. Acesso em: 27 jun. 2020.</p>
-          <p class="paragrafo">CONFIGURANDO rapidamente repositórios Git e GitHub pelo VS Code // Mão no Código #5 - YouTube. Disponível em: &lthttps://youtu.be/H0SQAW9tmmE>. Acesso em: 27 jun. 2020.</p>
-          <p class="paragrafo">GIT // Dicionário do Programador – YouTube. Disponível em: &lthttps://youtu.be/za5KWZ5pRag>. Acesso em: 27 jun. 2020.</p>
-          <p class="paragrafo">GIT – Configuração Inicial do Git. Disponível em: &lthttps://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Configura%C3%A7%C3%A3o-Inicial-do-Git>. Acesso em: 27 jun. 2020.</p>
-          <p class="paragrafo">GIT – Downloads. Disponível em: &lthttps://git-scm.com/downloads>. Acesso em: 27 jun. 2020.</p>
-          <p class="paragrafo">GIT – Veja o Histórico de Confirmação. Disponível em: &lthttps://git-scm.com/book/pt-pt/v2/No%C3%A7%C3%B5es-B%C3%A1sicas-do-Git-Veja-o-Hist%C3%B3rico-de-Confirma%C3%A7%C3%A3o>. Acessado em: 05 jul. 2020</p>
-          <p class="paragrafo">GITHUB. Disponível em: &lthttps://github.com/>. Acesso em: 27 jun. 2020</p>
-          <p class="paragrafo">GITHUB // Dicionário do Programador – YouTube. Disponível em: &lthttps://youtu.be/myQuetgSEsY>. Acesso em: 27 jun. 2020. </p>
-          <p class="paragrafo">INSTALL GIT | Atlassian Git Tutorial. Disponível em: &lthttps://www.atlassian.com/git/tutorials/install-git#windows>. Acesso em: 05 jul. 2020</p>
-          <p class="paragrafo">O QUE É GIT? O que é versionamento? - Curso de Git e GitHub – YouTube. Disponível em: &lthttps://youtu.be/xEKo29OWILE>. Acesso em: 27 jun. 2020.</p>
-          <p class="paragrafo">O QUE É GITHUB? Pra que ele serve? - Curso de Git e GitHub – Youtube. Disponível em: &lthttps://youtu.be/hcZ0qtwvN1w>. Acesso em: 27 jun. 2020.</p>
-          <p class="paragrafo">TRABALHAR COM o GitHub Pages. Disponível em: &lthttps://docs.github.com/pt/github/working-with-github-pages>. Acesso em: 09 jul. 2020.</p>
-          <p class="paragrafo">VISUAL STUDIO CODE – Code Editing. Redefined. Disponível em: &lthttps://code.visualstudio.com/>. Acesso em: 27 jun. 2020.</p>
+          <p class="paragrafo"><span class="bold">A EVOLUÇÃO</span> do Git e GitHub - Curso de Git e GitHub – YouTube. Disponível em: &lt<a href="https://youtu.be/CJtrNuTTs4Q" target="_blank" rel="noopener noreferrer">https://youtu.be/CJtrNuTTs4Q</a>>. Acesso em: 27 jun. 2020.</p>
+          <p class="paragrafo"><span class="bold">CONFIGURANDO</span> rapidamente repositórios Git e GitHub pelo VS Code // Mão no Código #5 - YouTube. Disponível em: &lt<a href="https://youtu.be/H0SQAW9tmmE" target="_blank" rel="noopener noreferrer">https://youtu.be/H0SQAW9tmmE</a>>. Acesso em: 27 jun. 2020.</p>
+          <p class="paragrafo"><span class="bold">GIT</span> // Dicionário do Programador – YouTube. Disponível em: &lt<a href="https://youtu.be/za5KWZ5pRag" target="_blank" rel="noopener noreferrer">https://youtu.be/za5KWZ5pRag</a>>. Acesso em: 27 jun. 2020.</p>
+          <p class="paragrafo"><span class="bold">GIT</span> – Configuração Inicial do Git. Disponível em: &lt<a href="https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Configura%C3%A7%C3%A3o-Inicial-do-Git" target="_blank" rel="noopener noreferrer">https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Configura%C3%A7%C3%A3o-Inicial-do-Git</a>>. Acesso em: 27 jun. 2020.</p>
+          <p class="paragrafo"><span class="bold">GIT</span> – Downloads. Disponível em: &lt<a href="https://git-scm.com/downloads" target="_blank" rel="noopener noreferrer">https://git-scm.com/downloads</a>>. Acesso em: 27 jun. 2020.</p>
+          <p class="paragrafo"><span class="bold">GIT</span> – Veja o Histórico de Confirmação. Disponível em: &lt<a href="https://git-scm.com/book/pt-pt/v2/No%C3%A7%C3%B5es-B%C3%A1sicas-do-Git-Veja-o-Hist%C3%B3rico-de-Confirma%C3%A7%C3%A3o" target="_blank" rel="noopener noreferrer">https://git-scm.com/book/pt-pt/v2/No%C3%A7%C3%B5es-B%C3%A1sicas-do-Git-Veja-o-Hist%C3%B3rico-de-Confirma%C3%A7%C3%A3o</a>>. Acessado em: 05 jul. 2020</p>
+          <p class="paragrafo"><span class="bold">GITHUB</span>. Disponível em: &lt<a href="https://github.com/" target="_blank" rel="noopener noreferrer">https://github.com/</a>>. Acesso em: 27 jun. 2020</p>
+          <p class="paragrafo"><span class="bold">GITHUB</span> // Dicionário do Programador – YouTube. Disponível em: &lt<a href="https://youtu.be/myQuetgSEsY" target="_blank" rel="noopener noreferrer">https://youtu.be/myQuetgSEsY</a>>. Acesso em: 27 jun. 2020. </p>
+          <p class="paragrafo"><span class="bold">INSTALL GIT</span> | Atlassian Git Tutorial. Disponível em: &lt<a href="https://www.atlassian.com/git/tutorials/install-git#windows" target="_blank" rel="noopener noreferrer">https://www.atlassian.com/git/tutorials/install-git#windows</a>>. Acesso em: 05 jul. 2020</p>
+          <p class="paragrafo"><span class="bold">O QUE É GIT?</span> O que é versionamento? - Curso de Git e GitHub – YouTube. Disponível em: &lt<a href="https://youtu.be/xEKo29OWILE" target="_blank" rel="noopener noreferrer">https://youtu.be/xEKo29OWILE</a>>. Acesso em: 27 jun. 2020.</p>
+          <p class="paragrafo"><span class="bold">O QUE É GITHUB?</span> Pra que ele serve? - Curso de Git e GitHub – Youtube. Disponível em: &lt<a href="https://youtu.be/hcZ0qtwvN1w" target="_blank" rel="noopener noreferrer">https://youtu.be/hcZ0qtwvN1w</a>>. Acesso em: 27 jun. 2020.</p>
+          <p class="paragrafo"><span class="bold">TRABALHAR COM</span> o GitHub Pages. Disponível em: &lt<a href="https://docs.github.com/pt/github/working-with-github-pages" target="_blank" rel="noopener noreferrer">https://docs.github.com/pt/github/working-with-github-pages</a>>. Acesso em: 09 jul. 2020.</p>
+          <p class="paragrafo"><span class="bold">VISUAL STUDIO CODE</span> – Code Editing. Redefined. Disponível em: &lt<a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">https://code.visualstudio.com/</a>>. Acesso em: 27 jun. 2020.</p>
         </div>
       </div>
     </main>
