@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <title>Curso Git e GitHub - Tópico 1</title>
+</head>
+<body>
+  <nav class="navbar">
+    <ul class="navbar-nav">
+      <li class="logo">
+        <a href="#" class="nav-link">
+          <span class="link-text logo-text">Navegação</span>
+          <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="angle-double-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-angle-double-right fa-w-14 fa-5x">
+            <g class="fa-group">
+              <path fill="currentColor" d="M224 273L88.37 409a23.78 23.78 0 0 1-33.8 0L32 386.36a23.94 23.94 0 0 1 0-33.89l96.13-96.37L32 159.73a23.94 23.94 0 0 1 0-33.89l22.44-22.79a23.78 23.78 0 0 1 33.8 0L223.88 239a23.94 23.94 0 0 1 .1 34z" class="fa-secondary"></path>
+              <path fill="currentColor" d="M415.89 273L280.34 409a23.77 23.77 0 0 1-33.79 0L224 386.26a23.94 23.94 0 0 1 0-33.89L320.11 256l-96-96.47a23.94 23.94 0 0 1 0-33.89l22.52-22.59a23.77 23.77 0 0 1 33.79 0L416 239a24 24 0 0 1-.11 34z" class="fa-primary"></path>
+            </g>
+          </svg>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="/index.html" class="nav-link">
+          <span class="link-text">Introdução</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="/topico1.html" class="nav-link">
+          <span class="link-text">Tópico 1</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="/topico2.html" class="nav-link">
+          <span class="link-text">Tópico 2</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="/topico3.html" class="nav-link">
+          <span class="link-text">Tópico 3</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="/conclusao.html" class="nav-link">
+          <span class="link-text">Conclusão</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="/sobre.html" class="nav-link">
+          <span class="link-text">Sobre</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <header class="topo2">
+    <h2><strong>Gerencie e Apresente seus Projetos de Software com <span class="s-git">git</span> e <span class="s-github">GitHub</strong></h2>
+  </header>
+    <main>
+        <div class="corpo-texto">
+ 
+          <h1 id="Topico2" class="titulo">TÓPICO 2 – VERSIONANDO REPOSITÓRIOS</h1>
+          <br />
+          <br />
+
+          <h2 id="Instalando-git" class="subtitulo">1.	Instalando e Configurando o <span class="italic">Git</span></h2>
+          <br />
+          <p class="paragrafo">Agora que conhecemos um pouco mais sobre o versionamento, vamos instalar nas suas máquinas a ferramenta necessária para começarmos a versionar nosso primeiro código.</p>
+          <br />
+          <p class="paragrafo">Vamos iniciar então:</p>
+          <br />
+          <ul id="tutorial-instalando-git" class="lista-tutorial">
+            <li class="item-lista">1.	Entre no site: <a href="https://git-scm.com/downloads" target="_blank" rel="noopener noreferrer">https://git-scm.com/downloads</a>;</li>
+            <br />
+            <li class="item-lista">2.	Dentro do site, localize o botão escrito o nome do seu sistema operacional e selecione o mesmo. Esse curso será ministrado utilizando uma máquina com <span class="italic">Windows</span>, então talvez os próximos passos seja, um pouco diferentes, caso esteja utilizando outro sistema, mas o processo é muito semelhante;</li>
+            <br />
+            <li class="item-lista">3.	Após clicar no botão, será iniciado um download automático. Localize a pasta para aonde o instalador foi baixado e execute como administrador o arquivo executável;</li>
+            <br />
+            <li class="item-lista">4.	Feito isso, ao arquivo executar, leia e concorde com os termos do programa apertando em <span class="green">Next ></span>.</li>
+            <br />
+            <li class="item-lista">5.	Na próxima tela, escolha o local que deseja instalar o programa e aperte novamente no <span class="green">Next ></span>.</li>
+            <br />
+            <li class="item-lista">6.	Agora, na tela em que você está, você irá selecionar todas as opções, exceto a penúltima, que está escrito: <span class="italic">“Use a TrueType font in all console Windows”</span>. Em seguida, aperte em <span class="green">Next ></span>.</li>
+            <br />
+            <li class="item-lista">7.	Na próxima tela, deixe como está e só aperte novamente em <span class="green">Next ></span>.</li>
+            <br />
+            <li class="item-lista">8.	Nessa tela, pressione na barra de seleção e escolha a opção do seu editor de códigos de preferência como padrão. Para esse curso, como dito antes, vamos utilizar o <span class="italic">Visual Studio Code</span> como padrão, então iremos selecionar a opção <span class="italic">“Use Visual Studio Code as Git’s default editor”</span>. Lembrando que você já deve ter o <span class="italic">Visual Studio Code</span> instalado no seu computador para isso. Em seguida pressione o <span class="green">Next ></span>.</li>
+            <br />
+            <li class="item-lista">9. Agora, deixe na opção já pré-selecionada e pressione em <span class="green">Next ></span>.</li>
+            <br />
+            <li class="item-lista">10. Faça o mesmo nessa tela, apenas deixe a opção pré-selecionada e aperte em <span class="green">Next ></span>.</li>
+            <br />
+            <li class="item-lista">11. Continuaremos na mesma, apenas deixe a opção pré-selecionada e aperte em <span class="green">Next ></span>.</li>
+            <br />
+            <li class="item-lista">12. Mais uma vez, apenas deixe a opção pré-selecionada e aperte em <span class="green">Next ></span>.</li>
+            <br />
+            <li class="item-lista">13. Mais uma vez, apenas deixe a opção pré-selecionada e aperte em <span class="green">Next ></span>.</li>
+            <br />
+            <li class="item-lista">14. Novamente, apenas deixe a opção pré-selecionada e aperte em <span class="green">Next ></span>.</li>
+            <br />
+            <li class="item-lista">15. Por fim, deixe selecionada a opção <span class="italic">“Enable experimental support for pseudo console”</span>, e pressione em <span class="green">Install ></span>.</li>
+            <br/>
+            <li class="item-lista">16. Feito isso, o aplicativo será instalado, e por fim, você deve selecionar apenas a opção <span class="italic">“Launch Git Bash”</span> e pressionar <span class="green">Next ></span>.</li>
+            <br />  
+          </ul>
+          <p class="paragrafo">Com isso, ele terá instalado o <span class="italic">Git</span> e estará rodando o <span class="italic">Git Bash</span>, um terminar específico do <span class="italic">Git</span>. Lembre-se de seguir todos os passos com atenção, e não pule nenhum deles.</p>
+          <br />
+          <p class="paragrafo">Agora, vamos rapidamente configurar seu <span class="italic">Git</span> como seu, cadastrando um usuário e e-mail no mesmo:</p>
+          <br />
+          <ul id="tutorial-config-git" class="lista-tutorial">
+            <li class="item-lista">1.	Dentro da tela do <span class="italic">Git Bash</span>, digite o comando: <span class="code">git config --global user.name</span>, seguido pelo seu nome de usuário desejado</li>
+            <br />
+            <li class="item-lista">2.	Ainda dentro do <span class="italic">Git Bash</span>, digite o comando: <span class="code">git config --global user.email</span>, seguido pelo seu e-mail.</li>
+            <br />
+            <li class="item-lista">3.	Feito isso, use o comando: <span class="code">git config –list</span>, e confira se as informações que você cadastrou estão apresentadas corretamente.</li>
+            <br />
+          </ul>
+          <h2 id="Vercionando-primerio-codigo" class="subtitulo">2.	Versionando meu Primeiro Projeto</h2>
+          <br />
+          <p class="paragrafo">Pode parecer um pouco estranho no começo, ficar mexendo com essa tela preta, mas não se preocupe, essa tela não é nenhum bicho de sete cabeças, e você vai conseguir pegar o jeito com ela!</p>
+          <br />
+          <p class="paragrafo">E para te ajudar, vamos aprender agora alguns comandos úteis, e iniciar o versionamento do nosso código:</p>
+          <br />
+          <ul id="tutorial-git-commit" class="lista-tutorial">
+            <li class="item-lista">1.	Dentro daquela mesma tela do <span class="italic">Git Bash</span> que deixamos aberta, digite o comando: <span class="code">mkdir Curso-Git</span>.</li>
+            <br />
+            <p class="paragrafo">O comando que acabamos de utilizar não é um comando exclusivo do <span class="italic">Git</span>, ele é um comando nativo do <span class="italic">CMD</span>, o terminal padrão do <span class="italic">Windows</span>, usado para criar um novo diretório. O <span class="italic">Git Bash</span> também é um terminal, e ele sem suporte a maioria dos comandos que você utilizaria normalmente no <span class="italic">Windows</span>, assim como, agora que temos o <span class="italic">Git</span> instalado em nossos computadores, podemos usar todos os comandos do <span class="italic">Git</span> no <span class="italic">CMD</span>. Iremos utilizar o <span class="italic">Git Bash</span> por praticidade e alguns recursos que vão facilitar a visualização do que estamos fazendo mais para frente.</p>
+            <br />
+            <li class="item-lista">2.	Com o novo diretório criado, vamos entrar dentro dele usando o comando: <span class="code">cd Curso-Git</span>.</li>
+            <br />
+            <li class="item-lista">3.	Estamos agora dentro do diretório que usaremos para construir nosso primeiro código versionado. Já que sabemos que essa será nosso diretório principal, então vamos usar nosso primeiro comando <span class="italic">Git</span>: <span class="code">git init</span>. Com isso, você iniciou o versionamento desse diretório!</li>
+            <br />
+            <p class="paragrafo">Viu como foi fácil? Com esse simples comando você já iniciou o versionamento do seu diretório! Você pode reparar agora, caso tenha seguido os passos direitinho que, ao lado do caminho da pasta em que você está, apareceu escrito em azul <span class="blue">(master)</span>, isso significa que você está dentro de um diretório versionado.</p>
+            <br />
+            <p class="paragrafo">Mas bem, por hora, estamos versionando apenas uma pasta vazia, e não é isso que queremos. Então agora, vamos criar nosso famoso código inicial de testes: o <span class="italic">Hello World</span>!</p>
+            <br />
+            <li class="item-lista">4.	Agora, já que estamos dentro do diretório que utilizaremos construir nosso código versionado, nada mais justo que entrarmos no nosso editor de códigos. Para isso, digite o comando: <span class="code">code .</span>, e o <span class="italic">Visual Studio Code</span> será aberto executando a pasta Curso-Git, que era a que estávamos.</li>
+            <br />
+            <li class="item-lista">5.	No <span class="italic">Visual Studio Code</span> agora, vamos criar um arquivo simples de HTML. Para isso, vá na opção File e selecione New File. Feito isso, pressione Ctrl + S e salve esse arquivo com o nome <span class="italic">“index”</span>, e selecione o formato HTML.</li>
+            <br />
+            <p class="paragrafo">Agora, temos um arquivo HTML para brincarmos com ele. Vamos então construir o nosso <span class="italic">Hello World</span>, usando alguns alhos do <span class="italic">Visual Studio Code</span> para agilizar nosso processo.</p>
+            <br />
+            <li class="item-lista">6.	Dentro do arquivo que criamos e salvamos com o nome de <span class="italic">“index”</span> em formato HTML, digite apenas: <span class="code">!</span> , pressione Enter e veja a mágica acontecer. Toda a estrutura básica de um arquivo HTML se formou, com você digitando apenas um caractere!</li>
+            <br />
+            <li class="item-lista">7.	Feito, dentro do <span class="italic">Body</span>, crie um <span class="code">&lth1> &lt/h1></span>, e dentro dele digite: <span class="italic">“Hello world!”</span>, e depois disso, localize o arquivo em seu explorador de arquivos e execute ele, para ver se o mesmo está funcionando normalmente.</li>
+            <br />
+            <p class="paragrafo">Criamos enfim nosso <span class="italic">Hello World</span>, mas ele por enquanto é só um código comum, que nós apenas iniciamos o versionamento, como podemos salvar nosso progresso em uma nova versão do projeto, agora com esse arquivo? É o que veremos agora:</p>
+            <br />
+            <li class="item-lista">8.	Volte ao nosso amigo <span class="italic">Git Bash</span>, e execute o comando: <span class="code">dir</span>, com isso, você verá que o arquivo está dentro do nosso diretório. Tendo certificado isso, podemos criar nossa primeira versão do código, usando o comando: <span class="code">git add -A</span>, para adicionar nosso novo arquivo ao versionamento do <span class="italic">Git</span>, e em seguida: <span class="code">git commit -m “Versão 1”</span>, para criarmos a primeira versão do nosso novo código!</li>
+            <br />
+            <li class="item-lista">9.	E com isso, temos a primeira versão do nosso código! Como ter certeza que deu certo? É fácil, execute o comando: <span class="code">git log</span>, depois disso, aparecerá um breve resumo das últimas versões do código, dizendo por quem ela foi feita e o nome da mesma.</li>
+            <br />
+          </ul>
+          <p class="paragrafo">Viu só? Não é nenhum bicho de 7 cabeças, é tudo questão de prática, você logo, logo estará fazendo esse processo bem mais rápido que esse tutorial, e vendo como isso é importante para um projeto.</p>
+          <br />
+          <br />
+
+          <div class="next-pag">
+            <a href="/topico3.html">Próximo Tópico &#8594</a>
+          </div>
+        </div>
+    </main>
+    <footer>
+      <img class="logo-unifil" src="https://web.unifil.br/melhoresanos/imagens/lg-unifil.png" alt="Logo UniFil"/>
+      <br />
+      <p class="develop">Desenvolvido por: <a href="https://github.com/dudulacerdadl/" target="_blank" rel="noopener noreferrer">Eduardo Lacerda</a></p>
+    </footer>
+</body>
+</html>

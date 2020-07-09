@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <title>Curso Git e GitHub - Tópico 1</title>
+</head>
+<body>
+  <nav class="navbar">
+    <ul class="navbar-nav">
+      <li class="logo">
+        <a href="#" class="nav-link">
+          <span class="link-text logo-text">Navegação</span>
+          <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="angle-double-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-angle-double-right fa-w-14 fa-5x">
+            <g class="fa-group">
+              <path fill="currentColor" d="M224 273L88.37 409a23.78 23.78 0 0 1-33.8 0L32 386.36a23.94 23.94 0 0 1 0-33.89l96.13-96.37L32 159.73a23.94 23.94 0 0 1 0-33.89l22.44-22.79a23.78 23.78 0 0 1 33.8 0L223.88 239a23.94 23.94 0 0 1 .1 34z" class="fa-secondary"></path>
+              <path fill="currentColor" d="M415.89 273L280.34 409a23.77 23.77 0 0 1-33.79 0L224 386.26a23.94 23.94 0 0 1 0-33.89L320.11 256l-96-96.47a23.94 23.94 0 0 1 0-33.89l22.52-22.59a23.77 23.77 0 0 1 33.79 0L416 239a24 24 0 0 1-.11 34z" class="fa-primary"></path>
+            </g>
+          </svg>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="/index.html" class="nav-link">
+          <span class="link-text">Introdução</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="/topico1.html" class="nav-link">
+          <span class="link-text">Tópico 1</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="/topico2.html" class="nav-link">
+          <span class="link-text">Tópico 2</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="/topico3.html" class="nav-link">
+          <span class="link-text">Tópico 3</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="/conclusao.html" class="nav-link">
+          <span class="link-text">Conclusão</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a href="/sobre.html" class="nav-link">
+          <span class="link-text">Sobre</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <header class="topo2">
+    <h2><strong>Gerencie e Apresente seus Projetos de Software com <span class="s-git">git</span> e <span class="s-github">GitHub</strong></h2>
+  </header>
+    <main>
+        <div class="corpo-texto">
+            
+          <h1 id="Topico3" class="titulo">TÓPICO 3 – UPANDO, BAIXANDO E COLOCANDO REPOSITÓRIOS NO AR</h1>
+          <br />
+          <br />
+
+          <h2 id="Github-conhecendo" class="subtitulo">1.	<span class="italic">GitHub</span>: conhecendo e aprendendo um pouco mais</h2>
+          <br />
+          <p class="paragrafo">Uma das funções desse curso, é tirar o estereótipo que muitas pessoas tem de que <span class="italic">Git</span> e <span class="italic">GitHub</span> são a mesma coisa.</p>
+          <br />
+          <p class="paragrafo">Bem, definitivamente não é assim que funciona. Para você ter uma ideia, o <span class="italic">Git</span>, como dito antes, foi criado por Linus Torvalds, o mesmo criador do <span class="italic">Linux</span>, enquanto o <span class="italic">GitHub</span> pertence hoje a Microsoft, depois de uma compra bilionária realizada pela mesma em 2018. Por serem ambas ferramentas muito utilizadas pela comunidade, quase sempre em parcimônia, muitas pessoas não enxergam a diferença, e não entendem quando falamos de ambas separadas.</p>
+          <br />
+          <p class="paragrafo">Tendo isso em mente, e sabendo que <span class="italic">Git</span> e <span class="italic">GitHub</span> <span class="bold">NÃO SÃO</span> a mesma coisa, nem tem o mesmo dono, nem foram feitas pela mesma pessoa, apenas tem um ótimo funcionamento conjunto, hora de criar nossa conta nesse Facebook de Developers!</p>
+          <br />
+          <p class="paragrafo">Vamos iniciar então:</p>
+          <br />
+          <ul id="tutorial-github-cadastro" class="lista-tutorial">
+            <li class="item-lista">1.	Entre no site: <a href="https://github.com/" target="_blank" rel="noopener noreferrer">https://github.com/</a>;</li>
+            <br />
+            <li class="item-lista">2.	Dentro do site, localize o botão escrito <span class="italic">“Sign Up”</span>;</li>
+            <br />
+            <li class="item-lista">3.	Dentro da página de cadastro, digite um nome de usuário válido no campo <span class="italic">“Username”</span>; um e-mail válido no campo <span class="italic">“Email address”</span>; e uma senha válida no campo <span class="italic">“Password”</span>, que tenha pelo menos 15 caracteres OU pelo menos 8 caracteres, incluindo um número e uma letra minúscula. Por fim, realize o teste lógico, girando a imagem até que a mesma fique na posição correta;</li>
+            <br />
+            <li class="item-lista">4.	Feito isso, será enviado um link de verificação para o e-mail que você colocou no cadastro. Entre nele, confirme e pronto! Conta criada.</li>
+            <br />
+          </ul>
+          <p class="paragrafo">Simples, não? Agora vamos entrar um pouco mais dentro do <span class="italic">GitHub</span> e criar nosso primeiro repositório online:</p>
+          <br />
+          <ul id="tutorial-github-repositorio" class="lista-tutorial">
+            <li class="item-lista">1.	Entre no site: <a href="https://github.com/" target="_blank" rel="noopener noreferrer">https://github.com/</a>, como feito anteriormente, e realize seu login, apertando na apertando no botão <span class="italic">“Sing In”</span>, e colocando o e-mail e a senha que acabamos de cadastrar;</li>
+            <br />
+            <li class="item-lista">2.	Logado no site, clique na imagem com uma setinha para baixo, que fica no topo do lado esquerdo, e ela abrirá um menu. Dentro dele, clique em cima do seu nome de usuário, para acessar seu perfil;</li>
+            <br />
+            <p class="paragrafo">Estamos agora dentro do seu perfil de usuário, que ainda é meio vazio, mas com o tempo você vai se acostumando e preenchendo ele. E vamos começar a fazer isso agora:</p>
+            <br />
+            <li class="item-lista">3.	Dentro da sua conta, vá agora no símbolo de +, ao lado da imagem que você clicou anteriormente, que abrirá outro menu. Neste, clique em <span class="italic">“New repository"</span>;</li>
+            <br />
+            <p class="paragrafo">Ele te encaminhará para a página de criação do repositório, na qual temos que fazer algumas configurações iniciais para prepararmos o mesmo:</p>
+            <br />
+            <li class="item-lista">4.	Feito isso, agora na página de criação, escreva o <span class="italic">“Curso-Git”</span> no <span class="italic">“Repository name”</span>, logo à frente do seu nome de usuário.</li>
+            <br />
+            <li class="item-lista">5.	Logo abaixo, no espaço <span class="italic">“Description”</span>, vamos digitar: <span class="italic">“Repositório de teste criado durante a realização do curso de Git e GitHub”</span>.</li>
+            <br />
+            <li class="item-lista">6.	Feito isso, deixe os campos de seleção do jeito que estão, com o repositório como <span class="bold">PUBLIC</span>, e sem criar arquivo de licença nem <span class="italic">ReadMe</span>, nem <span class="italic">gitignore</span>, e aperte em: <span class="italic">“Create repository”</span>.</li>
+            <br />
+          </ul>
+          <p class="paragrafo">Criamos nosso primeiro repositório público! Se você colocar o repositório como privado, não conseguiremos usar alguns recursos mais para frente.</p>
+          <br />
+          <p class="paragrafo">Pois bem, agora temos nossa conta no <span class="italic">GitHub</span> e nosso primeiro repositório na mesma, hora de conectarmos ela ao nosso projeto do <span class="italic">Hello World</span>. Para isso, vamos aprender a lidar com alguns novos comandos do <span class="italic">Git</span>:</p>
+          <br />
+          <ul id="tutorial-git-push" class="lista-tutorial">
+            <li class="item-lista">1.	Primeiramente, abrir nosso <span class="italic">Git Bash</span> e ir até o nosso diretório veriosnado que criamos. Se você não lembra como fazer isso, é só dar uma olhadinha no tópico anterior;</li>
+            <br />
+            <li class="item-lista">2.	Simultaneamente, abra aquele repositório remoto que criamos;</li>
+            <br />
+            <p class="paragrafo">Ao abrir o repositório, você vai perceber que ele está vazio, e com algumas dicas de comandos que você pode usar para importar seu projeto para ele, e é isso que faremos:</p>
+            <br />
+            <li class="item-lista">3.	Dentro do repositório, na parte indicada com: <span class="italic">Quick setup</span>, selecione a opção HTTPS e copie o código que aparecer na frente da mesma, que será algo como: <span class="fake">https://github.com/seu-nome-de-usuário/Curso-Git.git</span>;</li>
+            <br />
+            <li class="item-lista">4.	Agora, vamos voltar ao nosso <span class="italic">Git Bash</span>. Nele, coloque o link que você copiou do <span class="italic">GitHub</span> e aperte Enter.</li>
+            <br />
+            <p class="paragrafo">Com isso, você acabou de conectar o seu <span class="italic">Git</span> com o seu <span class="italic">GitHub</span>! Porém, isso não significa que suas de um já estão no outro, para isso, precisamos de mais um comando:</p>
+            <br />
+            <li class="item-lista">5.	Dentro do <span class="italic">Git Bash</span>, execute o comando: <span class="code">git push -u origin master</span>.</li>
+            <br />
+            <li class="item-lista">6.	Depois de terminada a execução desse comando, entre no seu <span class="italic">GitHub</span> e confira se eu arquivo foi upado corretamente.</li>
+            <br />
+          </ul>
+          <p class="paragrafo">Viu como foi simples? Agora você tem um código versionado, em um repositório online! Mas não temos somente a função de upar um código, também podemos baixa-lo. Vamos fazer o seguinte:</p>
+          <br />
+          <ul id="tutorial-git-pull" class="lista-tutorial">
+            <li class="item-lista">1.	Para isso, vamos entrar dentro do nosso código pelo <span class="italic">GitHub</span>, apertar no ícone de caneta para abrir a tela de edição, e trocar a frase <span class="italic">“Hello World”</span> por <span class="italic">“Olá, mundo!”</span>, e depois, apertar em <span class="italic">“Commit changes”</span>.</li>
+            <br />
+            <li class="item-lista">2.	Feito isso, volto ao <span class="italic">Git Bash</span>, dentro do diretório do nosso projeto. Dentro dela, execute o comando: <span class="code">git pull</span>.</li>
+            <br />
+            <li class="item-lista">3.	Simples, não? Para conferir se deu tudo certo, execute o comando: <span class="code">code .</span>, para abrir o projeto no <span class="italic">Visual Studio Code</span>. Nele, caso tenha feito tudo certo, você verá que no lugar do <span class="italic">“Hello World”</span>, estará o <span class="italic">“Olá, mundo!”</span>.</li>
+            <br />
+          </ul>
+          <h2 id="Colocando-codigo-no-ar" class="subtitulo">2.	Colocando seu Projeto no Ar com <span class="italic">GitHub Pages</span></h2>
+          <br />
+          <p class="paragrafo">Agora temos nosso repositório, e nosso projeto já está lançado dentro dele, como podemos melhorar isso? E se eu te dissesse que você consegue hospedar o seu projeto gratuitamente dentro do <span class="italic">GitHub</span>, podendo acessá-lo de qualquer lugar? Pois é, esse é o <span class="italic">GitHub Pages!</span></p>
+          <br />
+          <p class="paragrafo">O <span class="italic">GitHub Pages</span> é uma ferramenta própria do <span class="italic">GitHub</span> que te permite colocar sites estáticos, que não requerem acesso a bancos de dados, diretamente no ar.</p>
+          <br />
+          <p class="paragrafo">Para demonstrar isso, vamos colocar nosso <span class="italic">Hello World</span> no ar:</p>
+          <br />
+          <ul id="tutorial-github-pages" class="lista-tutorial">
+            <li class="item-lista">1.	Entre no seu repositório do <span class="italic">GitHub</span> que criamos nos passos anteriores;</li>
+            <br />
+            <li class="item-lista">2.	Dentro do repositório, clique no botão de <span class="italic">“Settings”</span> para acessar as configurações do repositório;</li>
+            <br />
+            <li class="item-lista">3.	Dentro das configurações, role a página até chegar no tópico de título: <span class="italic">“GitHub Pages”</span>;</li>
+            <br />
+            <li class="item-lista">4.	Nele, altere a opção <span class="italic">Source</span> de <span class="italic">“none”</span> para <span class="italic">“master branch”</span>.</li>
+            <br />
+            <li class="item-lista">5.	Feito isso, página atualizará. Role novamente até o tópico de título: <span class="italic">“GitHub Pages”</span>.</li>
+            <br />
+            <li class="item-lista">6.	Logo abaixo dele, agora, terá uma mensagem escrita algo como: <span class="italic">“Your site is ready to be published at <span class="fake">https://seu-nome-de-usuário.github.io/Curso-Git/</span>”</span>. Feito isso, clique no link apresentado.</li>
+            <br />
+          </ul>
+          <p class="paragrafo">Pronto! Seu site agora está no ar, e você pode acessá-lo de qualquer equipamento!</p>
+          <br />
+          <h2 id="Isso-e-tudo" class="subtitulo">3.	Isso é tudo?</h2>
+          <br />
+          <p class="paragrafo">Assim como qualquer outro curso introdutório, tudo que foi passado aqui foi apenas uma introdução a um conteúdo muito mais abrangente, com muitos outros detalhes se muitas outras funcionalidades a se aprender. O objetivo desse curso foi apenas passar a noção inicial sobre o que são as ferramentas, e o necessário que precisa ser usado para que você consiga implementas essas ferramentas no seu cotidiano de programador iniciante. Não seria possível explicar todas as funcionalidades e nem todas as funções e possibilidades do que as ferramentas são capazes de fazer.</p>
+          <br />
+          <p class="paragrafo">Tendo isso em mente, cabe a você agora decidir o que vocês preferem: estamos passando uma enquete para que vocês possam dar um feedback sobre o que acharam do curso, e se querem um curso de extensão mais detalhado, para conhecer um pouco mais a fundo sobre as ferramentas que utilizamos nesse curso!</p>
+          <br />
+          <p class="paragrafo">Sua votação é de suma importância para nós, então por favor, não deixe de dar a sua opinião.</p>
+          <br />
+          <p class="paragrafo">Muito obrigado por fazer parte desse curso!</p>
+          <br />
+          <br />
+
+          <div class="next-pag">
+            <a href="/conclusao.html">Conclusão &#8594</a>
+          </div>
+        </div>
+    </main>
+    <footer>
+      <img class="logo-unifil" src="https://web.unifil.br/melhoresanos/imagens/lg-unifil.png" alt="Logo UniFil"/>
+      <br />
+      <p class="develop">Desenvolvido por: <a href="https://github.com/dudulacerdadl/" target="_blank" rel="noopener noreferrer">Eduardo Lacerda</a></p>
+    </footer>
+</body>
+</html>

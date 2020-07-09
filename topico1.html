@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <title>Curso Git e GitHub - Tópico 1</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="navbar-nav">
+          <li class="logo">
+            <a href="#" class="nav-link">
+              <span class="link-text logo-text">Navegação</span>
+              <svg aria-hidden="true" focusable="false" data-prefix="fad" data-icon="angle-double-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-angle-double-right fa-w-14 fa-5x">
+                <g class="fa-group">
+                  <path fill="currentColor" d="M224 273L88.37 409a23.78 23.78 0 0 1-33.8 0L32 386.36a23.94 23.94 0 0 1 0-33.89l96.13-96.37L32 159.73a23.94 23.94 0 0 1 0-33.89l22.44-22.79a23.78 23.78 0 0 1 33.8 0L223.88 239a23.94 23.94 0 0 1 .1 34z" class="fa-secondary"></path>
+                  <path fill="currentColor" d="M415.89 273L280.34 409a23.77 23.77 0 0 1-33.79 0L224 386.26a23.94 23.94 0 0 1 0-33.89L320.11 256l-96-96.47a23.94 23.94 0 0 1 0-33.89l22.52-22.59a23.77 23.77 0 0 1 33.79 0L416 239a24 24 0 0 1-.11 34z" class="fa-primary"></path>
+                </g>
+              </svg>
+            </a>
+          </li>
+    
+          <li class="nav-item">
+            <a href="/index.html" class="nav-link">
+              <span class="link-text">Introdução</span>
+            </a>
+          </li>
+    
+          <li class="nav-item">
+            <a href="/topico1.html" class="nav-link">
+              <span class="link-text">Tópico 1</span>
+            </a>
+          </li>
+    
+          <li class="nav-item">
+            <a href="/topico2.html" class="nav-link">
+              <span class="link-text">Tópico 2</span>
+            </a>
+          </li>
+    
+          <li class="nav-item">
+            <a href="/topico3.html" class="nav-link">
+              <span class="link-text">Tópico 3</span>
+            </a>
+          </li>
+    
+          <li class="nav-item">
+            <a href="/conclusao.html" class="nav-link">
+              <span class="link-text">Conclusão</span>
+            </a>
+          </li>
+    
+          <li class="nav-item">
+            <a href="/sobre.html" class="nav-link">
+              <span class="link-text">Sobre</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    <header class="topo2">
+        <h2><strong>Gerencie e Apresente seus Projetos de Software com <span class="s-git">git</span> e <span class="s-github">GitHub</strong></h2>
+    </header>
+    <main>
+        <div class="corpo-texto">
+
+            <h1 id="Topico1" class="titulo">TÓPICO 1 – CONHECENDO MAIS SOBRE O GIT E O GITHUB</h1>
+            <br />
+            <br/>
+
+            <h2 id="Importancia-do-versionamento" class="subtitulo">1. A Importância do Versionamento</h2>
+            <br/>
+            <p class="paragrafo">Hoje em dia, o versionamento de sistemas é algo muito importantes para o cotidiano dos programadores devido aos benefícios e facilidades que eles trazem as rotinas de programação.</p>
+            <br />
+            <p class="paragrafo">Entretanto, programadores iniciantes não conhecem a existência dessas ferramentas, e muitas vezes acabamos sofrendo, tornando nosso trabalho mais demorado e confuso por não conhecer esses meios de facilitar nossa rotina. Tendo isso em mente, vamos tentar entender melhor o que é esse tal de versionamento, e como ele pode nos ajudar.</p>
+            <br />
+            <p class="paragrafo">O versionamento, como o próprio nome sugere, é um recurso usado para criação de várias versões para um mesmo código. Para entender melhor a importância disto, imagine que você tem um trabalho para entregar para o professor. Então você compacta a pasta com o trabalho, e envia para o professor. Você acabou esquecendo de incrementar algumas coisas que ele pediu, então, uma semana depois, o professor retorna o trabalho para você, com as notas do que você deve alterar. Você vai, arruma o trabalho, gerou outro arquivo compactado, com outro nome, para não confundir com o anterior, e o reenviou para o professor.</p>
+            <br />
+            <p class="paragrafo">O que você acabou de fazer aqui foi um tipo de versionamento! Porém, ficar compactando, descompactando e ficar organizando esses arquivos, quando se tem um projeto muito grande, pode ser algo muito demorado e complicado. E é para resolver esse problema que foram criados os aplicativos de versionamento.</p>
+            <br />
+            <p class="paragrafo">Agora vamos imaginar mais uma situação: você está realizando mais um trabalho, mas agora é um trabalho em grupo. Você e sua equipe precisam trocar frequentemente informações sobre o trabalho, sobre o que cada um está fazendo, sobre o que cada um já fez. Vocês têm um grupo no <span class="italic">WhatsApp</span> para isso, aonde vocês mandam infinitos arquivos compactados do seu projeto. Agora imagine a confusão que vai ser se, na hora de juntar todos esses projetos em um só, alguém modificar a parte de um outro, o quão complicado vai ser encontrar em qual desses arquivos estava a parte que fora sobreposta?</p>
+            <br />
+            <p class="paragrafo">E é aqui que vemos a importância dos softwares de versionamento. A função de ferramentas como <span class="italic">Git</span>, é fazer esse trabalho de organização do ser versionamento, com você definindo por meio de comandos simples, pontos que deseja marcar e deixar salvos em seu código.</p>
+            <br />
+            <p class="paragrafo">O <span class="italic">Git</span> é um Software de Controle de Versão Distribuído, criado em 2004 por Linus Torvalds, o mesmo criador do <span class="italic">Linux</span>, é com ele que vamos aprender a versionar nosso primeiro projeto. Ao iniciar um projeto utilizando o <span class="italic">Git</span>, ele cria um repositório local em sua máquina, no qual vai armazenar um histórico com todas as versões do seu código que você criar.</p>
+            <br />
+            <br />
+
+            <h2 id="Github-o-que-e-isso" class="subtitulo">2. <span class="italic">GitHub</span>: o que é isso?</h2>
+            <br />
+            <p class="paragrafo">Ok, aprendemos o que é versionamento! Agora sabemos que existe uma ferramenta que pode ser usada para nos ajudar a organizar nosso versionamento de códigos. Mas ainda temos outra questão: como resolver o problema do trabalho em grupo e a desorganização de colocar tudo dentro do <span class="italic">WhatsApp</span>? Seria possível todos, usando o <span class="italic">Git</span>, conseguirem programar com o mesmo versionamento, mesmo cada um usando seu repositório local? A resposta é sim! E para isso, utilizaremos um repositório online.</p>
+            <br />
+            <p class="paragrafo">Um repositório online é uma ferramenta na qual você pode armazenar seus repositórios locais, enviando seus códigos e deixando um clone desse repositório armazenado na nuvem, permitindo que você ou qualquer pessoa que você dê autorização, possa baixar e editar o código.</p>
+            <br />
+            <p class="paragrafo">Com isso, você exclui a necessidade de criar cópias do deu projeto, e exclui a necessidade de procurar um local para armazenar essas cópias, pois a última versão do seu código, juntamente com todo o histórico de versionamento do mesmo, estará armazenada no seu repositório online!</p>
+            <br />
+            <p class="paragrafo">Além disso, o repositório online tem uma outra função muito importe para todos os programadores: a de portifólio. Repositórios como <span class="italic">GitHub</span>, nada mais são do que uma espécie de rede sociais para programadores, na qual você expõe seus últimos projetos particulares, consegue ver os projetos dos amigos, trocar dicas, pedir e oferecer ajuda.</p>
+            <br />
+            <p class="paragrafo">Se você for meio chato, pode achar isso um tanto quanto bobo, mas saiba que essa característica desses repositórios torna eles muito importantes, pois esse é o meio mais fácil que uma empresa tem de checar toda a sua bagagem de experiência, com eles sendo muito usados na hora da decisão de contrato.</p>
+            <br />
+            <p class="paragrafo">Gostou dessas ferramentas? Bem, mesmo se a resposta for não, vamos conhecer elas um pouco melhor logo, logo, e dar nossos primeiros passos práticos do curso, criando nossas contas no <span class="italic">GitHub</span>!</p>
+            <br />
+            <br />
+
+            <div class="next-pag">
+                <a href="/topico2.html">Próximo Tópico &#8594</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <img class="logo-unifil" src="https://web.unifil.br/melhoresanos/imagens/lg-unifil.png" alt="Logo UniFil"/>
+        <br />
+        <p class="develop">Desenvolvido por: <a href="https://github.com/dudulacerdadl/" target="_blank" rel="noopener noreferrer">Eduardo Lacerda</a></p>
+    </footer>
+</body>
+</html>
