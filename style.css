@@ -11,22 +11,32 @@ body {
 
 header {
     width: 100%;
-    background-color: white;
+    background-color: lightgray;
 }
 
 .topo {
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: firacode;
     padding-top: 27.5%;
     text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
-    color: #ea5431;
+    color: gray;
     font-size: 40pt;
-    background-image: url(/images/gitgithub.jpg);
+    background-image: url(https://lucianoratamero.github.io/img/cover-git-1.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: auto;
     background-position-x: center;
-  }
+}
+
+.s-git {
+    font-family: 'Times New Roman', Times, serif;
+    color: #EA5431;
+}
+
+.s-github {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
 
 .topo h1 {
     border-radius: 10px;
