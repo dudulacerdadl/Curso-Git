@@ -68,6 +68,14 @@ main {
     padding: 15px;
 }
 
+.nav-local {
+  font-family: monospace;
+  border-top: solid 1px lightgray;
+  border-bottom: solid 1px lightgray;
+  padding: 20px;
+  text-align: center;
+}
+
 .corpo-texto {
     padding: 30px;
     font-family: 'Open Sans';
