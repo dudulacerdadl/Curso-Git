@@ -152,6 +152,24 @@ footer {
     padding: 0px 25px 25px 25px;
 }
 
+.download {
+  border-top: solid 1px lightgray;
+  border-bottom: solid 1px lightgray;
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  background-color: #EA5431;
+  color: white;
+  border: solid black;
+  border-radius: 10px;
+  display: inline-block;
+  height: 40px;
+  width: 100px;
+}
+
 :root {
     font-size: 16px;
     font-family: 'Open Sans';
