@@ -181,9 +181,9 @@ button {
 }
 
 .navbar {
-  min-width: 200px;
+  min-width: 150px;
   top: 1;
-  height: 100vh;
+  height: 100%;
   position: fixed;
   background-color: #252525;
   width: 20%;
