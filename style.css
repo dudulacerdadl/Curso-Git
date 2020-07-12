@@ -79,6 +79,7 @@ main {
 }
 
 .corpo-texto {
+  margin-left: 20%;
   padding: 30px;
   font-family: "Open Sans";
   font-size: 16pt;
@@ -144,6 +145,8 @@ main {
 
 footer {
   margin-left: 20%;
+  
+  min-width: 1000px;
   width: 80%;
   padding: 25px 0px 25px 0px;
   background-color: black;
