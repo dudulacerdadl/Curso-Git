@@ -40,7 +40,7 @@ main {
   text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
   color: gray;
   font-size: 30pt;
-  background-image: url(https://lucianoratamero.github.io/img/cover-git-1.png);
+  background-image: url(../Curso-Git/images/gitgithub.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: auto;
@@ -259,4 +259,8 @@ button {
 
 .link-text {
   margin-left: 3%;
+}
+
+.video {
+  text-align: center;
 }
